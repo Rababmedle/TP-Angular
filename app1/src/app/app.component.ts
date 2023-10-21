@@ -9,4 +9,5 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     console.table(this.pokemons);
   }
+  selectPokemons(pokemonsName: String);
 }
